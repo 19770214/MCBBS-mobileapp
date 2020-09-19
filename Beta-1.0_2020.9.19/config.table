@@ -1,0 +1,182 @@
+{
+  ["web_control"]	= {
+      [1]	= {
+          ["js"]	= "" ;
+          ["url"]	= "www.mcbbs.net" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      } ;
+  ["fltBtn"]	= {
+      ["显示"]	= true ;
+      ["图标"]	= "" ;
+      ["点击事件"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=52&mobile=2\")" ;
+      } ;
+  ["toolbar"]	= {
+      ["输入栏模式"]	= false ;
+      ["icon_btns"]	= {
+          } ;
+      ["menus"]	= {
+          [1]	= {
+              ["name"]	= "[出BUG了请先点我]刷新页面" ;
+              ["onClick"]	= "刷新网页()" ;
+              } ;
+          } ;
+      ["搜索URL"]	= "" ;
+      ["搜索框提示"]	= "" ;
+      ["启用搜索功能"]	= false ;
+      } ;
+  ["view_attribute"]	= {
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["顶栏标题"]	= "Minecraft(我的世界)中文论坛" ;
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["顶栏阴影强度"]	= "2dp" ;
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      ["底栏高度"]	= "65dp" ;
+      ["底栏图标大小"]	= "40dp" ;
+      } ;
+  ["colors"]	= {
+      ["底栏图标选中"]	= "#ff000000" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["导航栏"]	= "#ff000000" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["进度条"]	= "#00000000" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      ["底栏图标触摸波纹"]	= "#ff000000" ;
+      ["底栏"]	= "#00000000" ;
+      ["顶栏"]	= "#ff2bcf00" ;
+      ["悬浮按钮"]	= "#ff31e800" ;
+      ["顶栏部件触摸"]	= "#22ffffff" ;
+      ["底栏图标"]	= "#ff000000" ;
+      ["顶栏部件"]	= "#ffffffff" ;
+      } ;
+  ["web"]	= {
+      ["浏览器用户标识"]	= "默认" ;
+      ["惰性加载"]	= true ;
+      ["启用长按菜单"]	= true ;
+      ["网页沉浸"]	= false ;
+      ["支持打开外部应用"]	= true ;
+      ["启用进度条"]	= false ;
+      ["启动网页"]	= "https://www.mcbbs.net/forum.php?mod=guide&view=hot&mobile=2" ;
+      ["默认广告标记标签"]	= "" ;
+      } ;
+  ["switch"]	= {
+      ["横屏"]	= false ;
+      ["支持滑动页面"]	= true ;
+      ["启用启动图"]	= false ;
+      ["显示状态栏"]	= true ;
+      } ;
+  ["bottomBar"]	= {
+      [1]	= {
+          ["text"]	= "主页" ;
+          ["statusBarColor"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=guide&view=hot&mobile=2" ;
+          ["icon"]	= "drawable/home_variant.png" ;
+          } ;
+      [2]	= {
+          ["text"]	= "论坛" ;
+          ["statusBarColor"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?forumlist=1&mobile=2" ;
+          ["icon"]	= "drawable/comment_text_outline.png" ;
+          } ;
+      [3]	= {
+          ["text"]	= "小组" ;
+          ["statusBarColor"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/group.php?mod=index&mobile=2" ;
+          ["icon"]	= "drawable/account_multiple.png" ;
+          } ;
+      [4]	= {
+          ["text"]	= "我的" ;
+          ["statusBarColor"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/home.php?mod=space" ;
+          ["icon"]	= "drawable/account.png" ;
+          } ;
+      } ;
+  ["events"]	= {
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["程序启动"]	= "泡沫对话框(167)\
+.设置标题(\"第一次启动\")\
+.设置消息([[请点击开始按钮初始化]])\
+.设置积极按钮(\"开始\",function()\
+  弹出消息(\"正在初始化\")\
+  弹出消息(\"软件发布帖请到侧滑栏里寻找“软件发布帖”选项卡跳转\")\
+  弹出消息(\"制作by19770214（MCBBSid:myc19770214），使用GPL3.0开源协议，开源地址请在侧滑栏里寻找“开源协议”\")\
+  弹出消息(\"目前页面仅可查看帖子与回帖/编辑帖子，如需创建帖子请点击右上角三个点转至论坛对应板块进行发帖操作\")\
+end)\
+.设置消极按钮(\"退出\",function()\
+  退出程序()\
+end)\
+.显示()\
+\
+" ;
+      ["网页即将加载"]	= "" ;
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象，新标题=..." ;
+      } ;
+  ["sidebar"]	= {
+      ["启用"]	= true ;
+      ["items"]	= {
+          [1]	= {
+              ["name"]	= "更新日志" ;
+              ["icon"]	= "drawable/book.png" ;
+              ["onClick"]	= "复制文本(\"https://pcs.baidu.com/rest/2.0/pcs/file?method=download&app_id=778750&filename=Update_last.txt&path=%2FUpdate_last.txt&filename=Update_last.txt\")\
+弹出消息(\"更新日志下载链接已复制，请自行下载\")" ;
+              } ;
+          [2]	= {
+              ["name"]	= "加入QQ群" ;
+              ["icon"]	= "drawable/account_multiple.png" ;
+              ["onClick"]	= "加QQ群(605929963)" ;
+              } ;
+          [3]	= {
+              ["name"]	= "加入MCBBS综合讨论板块群" ;
+              ["icon"]	= "drawable/account_multiple.png" ;
+              ["onClick"]	= "加QQ群(690544558)" ;
+              } ;
+          [4]	= {
+              ["name"]	= "签到" ;
+              ["icon"]	= "drawable/clock.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/plugin.php?id=dc_signin:sign&mobile=2\")" ;
+              } ;
+          [5]	= {
+              ["name"]	= "任务" ;
+              ["icon"]	= "drawable/calendar_text.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/home.php?mod=task&mobile=2\")" ;
+              } ;
+          [6]	= {
+              ["name"]	= "退出" ;
+              ["icon"]	= "drawable/exit_to_app.png" ;
+              ["onClick"]	= "退出程序()" ;
+              } ;
+          [7]	= {
+              ["name"]	= "搜索" ;
+              ["icon"]	= "drawable/file_find.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/search.php?mod=forum\")" ;
+              } ;
+          [8]	= {
+              ["name"]	= "阅读模式" ;
+              ["icon"]	= "drawable/book_open.png" ;
+              ["onClick"]	= "阅读模式()" ;
+              } ;
+          [9]	= {
+              ["name"]	= "登出" ;
+              ["icon"]	= "drawable/logout.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/member.php?mod=logging&action=logout\")\
+弹出消息(\"延迟3\")\
+弹出消息(\"延迟2\")\
+弹出消息(\"延迟1\")\
+退出页面()" ;
+              } ;
+          } ;
+      ["启用顶部图片"]	= false ;
+      } ;
+  } ;

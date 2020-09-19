@@ -1,0 +1,203 @@
+{
+  ["toolbar"]	= {
+      ["搜索框提示"]	= "" ;
+      ["启用搜索功能"]	= false ;
+      ["输入栏模式"]	= false ;
+      ["menus"]	= {
+          [1]	= {
+              ["name"]	= "综合讨论" ;
+              ["onClick"]	= "进入子页面(\"综合讨论\")" ;
+              } ;
+          [2]	= {
+              ["name"]	= "灵感交流" ;
+              ["onClick"]	= "进入子页面(\"灵感交流\")" ;
+              } ;
+          [3]	= {
+              ["name"]	= "创世匠艺" ;
+              ["onClick"]	= "进入子页面(\"创世匠艺\")" ;
+              } ;
+          [4]	= {
+              ["name"]	= "你问我答" ;
+              ["onClick"]	= "进入子页面(\"你问我答\")" ;
+              } ;
+          [5]	= {
+              ["name"]	= "Mod模组" ;
+              ["onClick"]	= "进入子页面(\"Mod模组\")" ;
+              } ;
+          [6]	= {
+              ["name"]	= "多人联机" ;
+              ["onClick"]	= "进入子页面(\"多人联机\")" ;
+              } ;
+          [7]	= {
+              ["name"]	= "基岩版" ;
+              ["onClick"]	= "进入子页面(\"基岩版\")" ;
+              } ;
+          [8]	= {
+              ["name"]	= "相关游戏" ;
+              ["onClick"]	= "进入子页面(\"相关游戏\")" ;
+              } ;
+          [9]	= {
+              ["name"]	= "论坛事务" ;
+              ["onClick"]	= "进入子页面(\"论坛事物\")" ;
+              } ;
+          } ;
+      ["搜索URL"]	= "" ;
+      ["icon_btns"]	= {
+          } ;
+      } ;
+  ["bottomBar"]	= {
+      [1]	= {
+          ["icon"]	= "drawable/home_variant.png" ;
+          ["statusBarColor"]	= "" ;
+          ["text"]	= "主页" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=guide&view=hot&mobile=2" ;
+          } ;
+      [2]	= {
+          ["icon"]	= "drawable/comment_text_outline.png" ;
+          ["statusBarColor"]	= "" ;
+          ["text"]	= "论坛" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?forumlist=1&mobile=2" ;
+          } ;
+      [3]	= {
+          ["icon"]	= "drawable/account_multiple.png" ;
+          ["statusBarColor"]	= "" ;
+          ["text"]	= "小组" ;
+          ["url"]	= "https://www.mcbbs.net/group.php?mod=index&mobile=2" ;
+          } ;
+      [4]	= {
+          ["icon"]	= "drawable/account.png" ;
+          ["statusBarColor"]	= "" ;
+          ["text"]	= "我的" ;
+          ["url"]	= "https://www.mcbbs.net/home.php?mod=space" ;
+          } ;
+      } ;
+  ["view_attribute"]	= {
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["顶栏阴影强度"]	= "2dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["底栏高度"]	= "65dp" ;
+      ["底栏图标大小"]	= "40dp" ;
+      ["顶栏标题"]	= "Minecraft(我的世界)中文论坛" ;
+      } ;
+  ["web"]	= {
+      ["启用进度条"]	= false ;
+      ["启动网页"]	= "https://www.mcbbs.net/forum.php?mod=guide&view=hot&mobile=2" ;
+      ["网页沉浸"]	= false ;
+      ["支持打开外部应用"]	= true ;
+      ["浏览器用户标识"]	= "默认" ;
+      ["启用长按菜单"]	= true ;
+      ["惰性加载"]	= false ;
+      } ;
+  ["switch"]	= {
+      ["启用启动图"]	= false ;
+      ["显示状态栏"]	= true ;
+      ["支持滑动页面"]	= true ;
+      ["横屏"]	= false ;
+      } ;
+  ["colors"]	= {
+      ["顶栏部件触摸"]	= "#22ffffff" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["底栏图标"]	= "#ff000000" ;
+      ["顶栏"]	= "#ff31e800" ;
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      ["底栏图标选中"]	= "#ff000000" ;
+      ["底栏"]	= "#00000000" ;
+      ["悬浮按钮"]	= "#ff31e800" ;
+      ["顶栏部件"]	= "#ffffffff" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["进度条"]	= "#00000000" ;
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["底栏图标触摸波纹"]	= "#ff000000" ;
+      ["导航栏"]	= "#ff31e800" ;
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      } ;
+  ["sidebar"]	= {
+      ["items"]	= {
+          [8]	= {
+              ["icon"]	= "drawable/file_find.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/search.php?mod=forum\")" ;
+              ["name"]	= "搜索" ;
+              } ;
+          [1]	= {
+              ["icon"]	= "drawable/home.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=guide&view=hot&mobile=2\")" ;
+              ["name"]	= "回到主页" ;
+              } ;
+          [2]	= {
+              ["icon"]	= "drawable/account.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/home.php\")" ;
+              ["name"]	= "我的" ;
+              } ;
+          [3]	= {
+              ["icon"]	= "drawable/book.png" ;
+              ["onClick"]	= "复制文本(\"https://pcs.baidu.com/rest/2.0/pcs/file?method=download&app_id=778750&filename=Update_last.txt&path=%2FUpdate_last.txt&filename=Update_last.txt\")\
+弹出消息(\"更新日志下载链接已复制，请自行下载\")" ;
+              ["name"]	= "更新日志" ;
+              } ;
+          [4]	= {
+              ["icon"]	= "drawable/account_multiple.png" ;
+              ["onClick"]	= "加QQ群(605929963)" ;
+              ["name"]	= "加入QQ群" ;
+              } ;
+          [5]	= {
+              ["icon"]	= "drawable/clock.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/plugin.php?id=dc_signin:sign&mobile=2\")" ;
+              ["name"]	= "签到" ;
+              } ;
+          [6]	= {
+              ["icon"]	= "drawable/calendar_text.png" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/home.php?mod=task&mobile=2\")" ;
+              ["name"]	= "任务" ;
+              } ;
+          [7]	= {
+              ["icon"]	= "drawable/exit_to_app.png" ;
+              ["onClick"]	= "退出程序()" ;
+              ["name"]	= "退出" ;
+              } ;
+          } ;
+      ["启用顶部图片"]	= false ;
+      ["启用"]	= true ;
+      } ;
+  ["web_control"]	= {
+      [1]	= {
+          ["js"]	= "" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix" ;
+          ["url"]	= "www.mcbbs.net" ;
+          } ;
+      } ;
+  ["fltBtn"]	= {
+      ["点击事件"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=52&mobile=2\")" ;
+      ["图标"]	= "" ;
+      ["显示"]	= true ;
+      } ;
+  ["events"]	= {
+      ["程序启动"]	= "泡沫对话框(113)\
+.设置标题(\"第一次启动\")\
+.设置消息([[请点击开始按钮初始化]])\
+.设置积极按钮(\"开始\",function()\
+  弹出消息(\"正在初始化\")\
+  弹出消息(\"软件发布帖请到侧滑栏里寻找“软件发布帖”选项卡跳转\")\
+  弹出消息(\"制作by19770214（MCBBSid:myc19770214），使用GPL3.0开源协议，开源地址请在侧滑栏里寻找“开源协议”\")\
+end)\
+.设置消极按钮(\"退出\")\
+.显示()\
+" ;
+      ["网页即将加载"]	= "--浏览器即将加载新的网页时执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象，新标题=..." ;
+      } ;
+  } ;
