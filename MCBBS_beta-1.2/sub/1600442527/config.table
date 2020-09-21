@@ -1,0 +1,125 @@
+{
+  ["web_control"]	= {
+      [1]	= {
+          ["js"]	= "" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          ["url"]	= "www.mcbbs.net" ;
+          } ;
+      } ;
+  ["tab_bar"]	= {
+      ["items"]	= {
+          [4]	= {
+              ["name"]	= "整合包发布" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=170&mobile=2" ;
+              } ;
+          [1]	= {
+              ["name"]	= "Mod讨论" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=185&mobile=2" ;
+              } ;
+          [2]	= {
+              ["name"]	= "Mod教程" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=1326&mobile=2" ;
+              } ;
+          [3]	= {
+              ["name"]	= "Mod发布" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=45&mobile=2" ;
+              } ;
+          } ;
+      } ;
+  ["events"]	= {
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["网页即将加载"]	= "--浏览器即将加载新的网页时执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象,新标题=..." ;
+      ["程序启动"]	= "--程序启动时会执行的事件" ;
+      } ;
+  ["colors"]	= {
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["标签栏文本"]	= "#ffffffff" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["进度条"]	= "#ff4db6ac" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["标签栏项目触摸"]	= "#33000000" ;
+      ["标签栏滑动条"]	= "#ff4db6ac" ;
+      ["顶栏部件触摸"]	= "#33ffffff" ;
+      ["顶栏部件"]	= "#ffffffff" ;
+      ["顶栏"]	= "#ff2bcf00" ;
+      ["状态栏"]	= "#ffffffff" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["悬浮按钮"]	= "#ff4db6ac" ;
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["导航栏"]	= "#ff2c2e43" ;
+      } ;
+  ["fltBtn"]	= {
+      ["显示"]	= true ;
+      ["图标"]	= "" ;
+      ["点击事件"]	= "退出程序()" ;
+      } ;
+  ["switch"]	= {
+      ["横屏"]	= false ;
+      ["启用启动图"]	= false ;
+      ["支持滑动页面"]	= true ;
+      ["显示状态栏"]	= true ;
+      } ;
+  ["web"]	= {
+      ["惰性加载"]	= true ;
+      ["浏览器用户标识"]	= "默认" ;
+      ["网页沉浸"]	= false ;
+      ["启用长按菜单"]	= false ;
+      ["启用进度条"]	= false ;
+      ["支持打开外部应用"]	= true ;
+      } ;
+  ["toolbar"]	= {
+      ["搜索URL"]	= "" ;
+      ["menus"]	= {
+          [4]	= {
+              ["name"]	= "整合包发布" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=170&mobile=2\")" ;
+              } ;
+          [1]	= {
+              ["name"]	= "Mod讨论" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=185&mobile=2\")" ;
+              } ;
+          [2]	= {
+              ["name"]	= "Mod教程" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=1326&mobile=2\")" ;
+              } ;
+          [3]	= {
+              ["name"]	= "Mod发布" ;
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=45&mobile=2\")" ;
+              } ;
+          } ;
+      ["启用搜索功能"]	= false ;
+      ["搜索框提示"]	= "输入关键词搜索.." ;
+      ["icon_btns"]	= {
+          } ;
+      ["输入栏模式"]	= false ;
+      } ;
+  ["view_attribute"]	= {
+      ["标签栏高度"]	= "48dp" ;
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["标签栏滑动条高度"]	= "3dp" ;
+      ["顶栏标题"]	= "Mod模组" ;
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      ["顶栏阴影强度"]	= "2dp" ;
+      } ;
+  ["sidebar"]	= {
+      ["启用顶部图片"]	= false ;
+      ["启用"]	= true ;
+      ["items"]	= {
+          } ;
+      } ;
+  } ;

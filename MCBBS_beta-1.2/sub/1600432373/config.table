@@ -1,0 +1,133 @@
+{
+  ["web_control"]	= {
+      [1]	= {
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          ["url"]	= "www.mcbbs.net" ;
+          ["js"]	= "" ;
+          } ;
+      } ;
+  ["toolbar"]	= {
+      ["搜索框提示"]	= "输入关键词搜索.." ;
+      ["icon_btns"]	= {
+          } ;
+      ["启用搜索功能"]	= false ;
+      ["menus"]	= {
+          [1]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=52&mobile=2\")" ;
+              ["name"]	= "矿工茶馆" ;
+              } ;
+          [2]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=169&mobile=2\")" ;
+              ["name"]	= "视频实况" ;
+              } ;
+          [3]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=44&mobile=2\")" ;
+              ["name"]	= "材质资源" ;
+              } ;
+          [4]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=169&mobile=2\")" ;
+              ["name"]	= "皮肤分享" ;
+              } ;
+          [5]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=67&mobile=2\")" ;
+              ["name"]	= "周边创作" ;
+              } ;
+          } ;
+      ["输入栏模式"]	= false ;
+      ["搜索URL"]	= "" ;
+      } ;
+  ["events"]	= {
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["程序启动"]	= "--程序启动时会执行的事件" ;
+      ["网页即将加载"]	= "--浏览器即将加载新的网页时执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象,新标题=..." ;
+      } ;
+  ["web"]	= {
+      ["网页沉浸"]	= false ;
+      ["惰性加载"]	= true ;
+      ["支持打开外部应用"]	= true ;
+      ["启用长按菜单"]	= false ;
+      ["浏览器用户标识"]	= "默认" ;
+      ["启用进度条"]	= false ;
+      } ;
+  ["colors"]	= {
+      ["顶栏部件"]	= "#ffffffff" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["悬浮按钮"]	= "#ff4db6ac" ;
+      ["顶栏部件触摸"]	= "#33ffffff" ;
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      ["标签栏文本"]	= "#ffffffff" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["标签栏滑动条"]	= "#ff4db6ac" ;
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["导航栏"]	= "#ff2c2e43" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["进度条"]	= "#ff4db6ac" ;
+      ["状态栏"]	= "#ffffffff" ;
+      ["顶栏"]	= "#ff2bcf00" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["标签栏项目触摸"]	= "#33000000" ;
+      } ;
+  ["switch"]	= {
+      ["启用启动图"]	= false ;
+      ["显示状态栏"]	= true ;
+      ["支持滑动页面"]	= true ;
+      ["横屏"]	= false ;
+      } ;
+  ["tab_bar"]	= {
+      ["items"]	= {
+          [1]	= {
+              ["name"]	= "矿工茶馆" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=52&mobile=2" ;
+              } ;
+          [2]	= {
+              ["name"]	= "视频实况" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=463&mobile=2" ;
+              } ;
+          [3]	= {
+              ["name"]	= "材质资源" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=44&mobile=2" ;
+              } ;
+          [4]	= {
+              ["name"]	= "皮肤分享" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=169&mobile=2" ;
+              } ;
+          [5]	= {
+              ["name"]	= "周边创作" ;
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=67&mobile=2" ;
+              } ;
+          } ;
+      } ;
+  ["fltBtn"]	= {
+      ["图标"]	= "" ;
+      ["点击事件"]	= "退出程序()" ;
+      ["显示"]	= true ;
+      } ;
+  ["sidebar"]	= {
+      ["启用顶部图片"]	= false ;
+      ["启用"]	= true ;
+      ["items"]	= {
+          } ;
+      } ;
+  ["view_attribute"]	= {
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      ["标签栏高度"]	= "48dp" ;
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["标签栏滑动条高度"]	= "3dp" ;
+      ["顶栏阴影强度"]	= "2dp" ;
+      ["顶栏标题"]	= "灵感交流" ;
+      } ;
+  } ;

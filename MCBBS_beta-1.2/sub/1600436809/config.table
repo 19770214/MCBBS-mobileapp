@@ -1,0 +1,117 @@
+{
+  ["web"]	= {
+      ["网页沉浸"]	= false ;
+      ["惰性加载"]	= true ;
+      ["启用进度条"]	= false ;
+      ["启用长按菜单"]	= false ;
+      ["浏览器用户标识"]	= "默认" ;
+      ["支持打开外部应用"]	= true ;
+      } ;
+  ["colors"]	= {
+      ["标签栏文本"]	= "#ffffffff" ;
+      ["顶栏"]	= "#ff2bcf00" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["标签栏滑动条"]	= "#ff4db6ac" ;
+      ["标签栏项目触摸"]	= "#33000000" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["导航栏"]	= "#ff2c2e43" ;
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["状态栏"]	= "#ffffffff" ;
+      ["顶栏部件触摸"]	= "#33ffffff" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["顶栏部件"]	= "#ffffffff" ;
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["进度条"]	= "#ff4db6ac" ;
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      ["悬浮按钮"]	= "#ff4db6ac" ;
+      } ;
+  ["switch"]	= {
+      ["横屏"]	= false ;
+      ["支持滑动页面"]	= true ;
+      ["显示状态栏"]	= true ;
+      ["启用启动图"]	= false ;
+      } ;
+  ["sidebar"]	= {
+      ["启用顶部图片"]	= false ;
+      ["启用"]	= false ;
+      ["items"]	= {
+          } ;
+      } ;
+  ["web_control"]	= {
+      [1]	= {
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          ["url"]	= "www.mcbbs.net" ;
+          ["js"]	= "" ;
+          } ;
+      } ;
+  ["tab_bar"]	= {
+      ["items"]	= {
+          [1]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=137&mobile=2" ;
+              ["name"]	= "展示&共享" ;
+              } ;
+          [2]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=801&mobile=2" ;
+              ["name"]	= "搬运&鉴赏" ;
+              } ;
+          [3]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=1276&mobile=2" ;
+              ["name"]	= "匠人酒馆" ;
+              } ;
+          } ;
+      } ;
+  ["events"]	= {
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["网页即将加载"]	= "--浏览器即将加载新的网页时执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象,新标题=..." ;
+      ["程序启动"]	= "--程序启动时会执行的事件" ;
+      } ;
+  ["view_attribute"]	= {
+      ["顶栏阴影强度"]	= "2dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      ["标签栏滑动条高度"]	= "3dp" ;
+      ["标签栏高度"]	= "48dp" ;
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["顶栏标题"]	= "创世匠艺" ;
+      } ;
+  ["toolbar"]	= {
+      ["搜索URL"]	= "" ;
+      ["输入栏模式"]	= false ;
+      ["menus"]	= {
+          [1]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=137&mobile=2\")" ;
+              ["name"]	= "展示&共享" ;
+              } ;
+          [2]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=801&mobile=2\")" ;
+              ["name"]	= "搬运&鉴赏" ;
+              } ;
+          [3]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=1276&mobile=2\")" ;
+              ["name"]	= "匠人酒馆" ;
+              } ;
+          } ;
+      ["icon_btns"]	= {
+          } ;
+      ["搜索框提示"]	= "输入关键词搜索.." ;
+      ["启用搜索功能"]	= false ;
+      } ;
+  ["fltBtn"]	= {
+      ["点击事件"]	= "退出程序()" ;
+      ["图标"]	= "" ;
+      ["显示"]	= true ;
+      } ;
+  } ;

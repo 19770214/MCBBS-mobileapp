@@ -1,0 +1,214 @@
+{
+  ["tab_bar"]	= {
+      ["items"]	= {
+          [1]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=39&mobile=2" ;
+              ["name"]	= "游戏技巧" ;
+              } ;
+          [2]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=43&mobile=2" ;
+              ["name"]	= "软件资源" ;
+              } ;
+          [3]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=479&mobile=2" ;
+              ["name"]	= "编程开发" ;
+              } ;
+          [4]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=1015&mobile=2" ;
+              ["name"]	= "翻译&wiki" ;
+              } ;
+          [5]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=647&mobile=2" ;
+              ["name"]	= "交易代理" ;
+              } ;
+          [6]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=140&mobile=2" ;
+              ["name"]	= "MCBBS擂台" ;
+              } ;
+          [7]	= {
+              ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=499&mobile=2" ;
+              ["name"]	= "MCBBS创意馆" ;
+              } ;
+          } ;
+      } ;
+  ["web_control"]	= {
+      [1]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=479&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [2]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=43&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [3]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=39&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [4]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=1015&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [5]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=647&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [6]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=140&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [7]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=499&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuo_foot_nav" ;
+          } ;
+      [8]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=39&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      [9]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=43&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      [10]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=479&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      [11]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=1015&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      [12]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=647&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      [13]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=140&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      [14]	= {
+          ["js"]	= "" ;
+          ["url"]	= "https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=499&mobile=2" ;
+          ["remove_element"]	= "header,indexheader,nav,icon-,@ID(ainuo_foot_nav),menu1,z,y,forum-bar-nav,ainuotopfix,home-icons,ainuoleft_nav" ;
+          } ;
+      } ;
+  ["fltBtn"]	= {
+      ["图标"]	= "" ;
+      ["显示"]	= true ;
+      ["点击事件"]	= "退出程序()" ;
+      } ;
+  ["colors"]	= {
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["状态栏"]	= "#ffffffff" ;
+      ["顶栏"]	= "#ff2bcf00" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["进度条"]	= "#ff4db6ac" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["标签栏项目触摸"]	= "#33000000" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["导航栏"]	= "#ff2c2e43" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["顶栏部件"]	= "#ffffffff" ;
+      ["悬浮按钮"]	= "#ff4db6ac" ;
+      ["标签栏文本"]	= "#ffffffff" ;
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      ["顶栏部件触摸"]	= "#33ffffff" ;
+      ["标签栏滑动条"]	= "#ff4db6ac" ;
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      } ;
+  ["events"]	= {
+      ["程序启动"]	= "" ;
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["网页即将加载"]	= "--浏览器即将加载新的网页时执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象,新标题=..." ;
+      } ;
+  ["web"]	= {
+      ["启用长按菜单"]	= false ;
+      ["启用进度条"]	= false ;
+      ["浏览器用户标识"]	= "默认" ;
+      ["惰性加载"]	= true ;
+      ["支持打开外部应用"]	= true ;
+      ["网页沉浸"]	= false ;
+      } ;
+  ["view_attribute"]	= {
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["顶栏标题"]	= "综合讨论板" ;
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["顶栏阴影强度"]	= "2dp" ;
+      ["标签栏高度"]	= "48dp" ;
+      ["标签栏滑动条高度"]	= "3dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      } ;
+  ["switch"]	= {
+      ["横屏"]	= false ;
+      ["显示状态栏"]	= true ;
+      ["启用启动图"]	= false ;
+      ["支持滑动页面"]	= true ;
+      } ;
+  ["sidebar"]	= {
+      ["启用"]	= true ;
+      ["启用顶部图片"]	= false ;
+      ["items"]	= {
+          } ;
+      } ;
+  ["toolbar"]	= {
+      ["输入栏模式"]	= false ;
+      ["搜索URL"]	= "" ;
+      ["启用搜索功能"]	= false ;
+      ["menus"]	= {
+          [1]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=39&mobile=2\")" ;
+              ["name"]	= "游戏技巧" ;
+              } ;
+          [2]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=43&mobile=2\")" ;
+              ["name"]	= "软件资源" ;
+              } ;
+          [3]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=43&mobile=2\")" ;
+              ["name"]	= "编程开发" ;
+              } ;
+          [4]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=479&mobile=2\")" ;
+              ["name"]	= "翻译&wiki" ;
+              } ;
+          [5]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=647&mobile=2\")" ;
+              ["name"]	= "交易代理" ;
+              } ;
+          [6]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=140&mobile=2\")" ;
+              ["name"]	= "MCBBS擂台" ;
+              } ;
+          [7]	= {
+              ["onClick"]	= "加载网页(\"https://www.mcbbs.net/forum.php?mod=post&action=newthread&fid=499&mobile=2\")" ;
+              ["name"]	= "MCBBS创意馆" ;
+              } ;
+          } ;
+      ["icon_btns"]	= {
+          } ;
+      ["搜索框提示"]	= "输入关键词搜索.." ;
+      } ;
+  } ;
